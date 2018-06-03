@@ -94,8 +94,8 @@ header {
   background-color: #ff6d77;
   width: 100%;
   text-align: left;
+  left: 0;
 
-  li {}
   a {
     padding: 20px 0 20px 10px;
     font-size: 1.5rem;
@@ -187,7 +187,8 @@ header {
   #popular_area,
   #recent_area {
     .item-list {
-      width: 43%;
+      width: 49%;
+      box-sizing: border-box;
     }
   }
 
@@ -551,18 +552,22 @@ a {
   table {
     width: 100%;
   }
-}
 
-td,
-th {
-  border: solid 1px;
-  text-align: center;
-  color: #887f69;
-  border-color: #e3e8cf;
-}
+  td,
+  th {
+    border: solid 1px;
+    text-align: center;
+    color: #887f69;
+    border-color: #e3e8cf;
+  }
 
-th {
-  background-color: #f9f9f5;
+  th {
+    background-color: #f9f9f5;
+  }
+  input {
+    width: 10px;
+    height: 10px;
+  }
 }
 
 .price_cart {

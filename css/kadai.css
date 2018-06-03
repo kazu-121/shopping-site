@@ -47,7 +47,8 @@ header .pc_menu_li {
   display: none;
   background-color: #ff6d77;
   width: 100%;
-  text-align: left; }
+  text-align: left;
+  left: 0; }
   .sp_menu_btn_li a {
     padding: 20px 0 20px 10px;
     font-size: 1.5rem; }
@@ -113,7 +114,8 @@ header .pc_menu_li {
   #new_area .item-list,
   #popular_area .item-list,
   #recent_area .item-list {
-    width: 43%; }
+    width: 49%;
+    box-sizing: border-box; }
 
   #new_items,
   #popular_items {
@@ -364,16 +366,17 @@ a {
 
 .table1 table {
   width: 100%; }
-
-td,
-th {
+.table1 td,
+.table1 th {
   border: solid 1px;
   text-align: center;
   color: #887f69;
   border-color: #e3e8cf; }
-
-th {
+.table1 th {
   background-color: #f9f9f5; }
+.table1 input {
+  width: 10px;
+  height: 10px; }
 
 .price_cart {
   display: flex; }
