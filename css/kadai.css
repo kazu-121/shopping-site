@@ -371,12 +371,10 @@ a {
   border: solid 1px;
   text-align: center;
   color: #887f69;
-  border-color: #e3e8cf; }
+  border-color: #e3e8cf;
+  width: 33%; }
 .table1 th {
   background-color: #f9f9f5; }
-.table1 input {
-  width: 10px;
-  height: 10px; }
 
 .price_cart {
   display: flex; }
