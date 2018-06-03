@@ -31,9 +31,7 @@ header .pc_menu_li {
   .pc_menu li {
     display: none; } }
 .sp_menu {
-  top: 80px;
-  left: 40%;
-  position: absolute; }
+  text-align: center; }
   .sp_menu li {
     list-style: none;
     margin: 0;
@@ -41,14 +39,18 @@ header .pc_menu_li {
     .sp_menu li a {
       display: block;
       border-bottom: 1px solid #eee;
-      font-size: 14px;
       text-decoration: none; }
 
 .sp_menu_btn_li {
   position: absolute;
   z-index: 2;
   display: none;
-  background-color: white; }
+  background-color: #ff6d77;
+  width: 100%;
+  text-align: left; }
+  .sp_menu_btn_li a {
+    padding: 20px 0 20px 10px;
+    font-size: 1.5rem; }
 
 /* Owl carousel */
 .owl-theme .owl-dots {
@@ -181,7 +183,7 @@ header .pc_menu_li {
     margin: 10px; } }
 .page-link {
   margin-right: auto;
-  padding: 5px;
+  padding: 10px;
   margin: 10px 0px;
   background-color: #887f69;
   background-image: url(../images/top/next_icon.png);
@@ -190,7 +192,7 @@ header .pc_menu_li {
 
 .categories-box {
   margin-right: auto;
-  padding: 5px;
+  padding: 10px;
   margin: 10px 0px;
   background-color: #887f69;
   cursor: pointer;
@@ -222,7 +224,7 @@ header .pc_menu_li {
   .shopinfo-container .about-bar,
   .shopinfo-container .shopinfo-bar {
     margin-right: auto;
-    padding: 5px;
+    padding: 10px;
     background-color: #887f69; }
   .about-container p,
   .shopinfo-container p {
@@ -265,11 +267,12 @@ header .pc_menu_li {
     text-align: center;
     margin-top: 20px; } }
 .footer {
-  margin: 50px;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 100px; }
   .footer .foot_navi {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    margin: 0; }
     .footer .foot_navi li {
       list-style: none; }
       .footer .foot_navi li a {
@@ -326,6 +329,9 @@ a {
 #products {
   background-color: white;
   padding: 20px 50px; }
+  #products hr {
+    margin-top: 0;
+    margin-bottom: 10px; }
 
 .products_name h3 {
   text-align: left;
@@ -363,7 +369,8 @@ td,
 th {
   border: solid 1px;
   text-align: center;
-  color: #887f69; }
+  color: #887f69;
+  border-color: #e3e8cf; }
 
 th {
   background-color: #f9f9f5; }
@@ -377,7 +384,8 @@ th {
   .price-table th,
   .price-table td {
     border: none;
-    border-top: solid 1px; }
+    border-top: solid 1px;
+    border-color: #e3e8cf; }
   .price-table th {
     background: none;
     min-width: 50px; }
@@ -428,7 +436,8 @@ th {
     color: #887f69; }
   #explain hr {
     margin-top: 0;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    border-color: black; }
   #explain p {
     font-size: 1.4rem; }
 

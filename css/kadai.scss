@@ -72,9 +72,7 @@ header {
 }
 
 .sp_menu {
-  top: 80px;
-  left: 40%;
-  position: absolute;
+  text-align: center;
 
   li {
     list-style: none;
@@ -84,7 +82,6 @@ header {
     a {
       display: block;
       border-bottom: 1px solid #eee;
-      font-size: 14px;
       text-decoration: none;
     }
   }
@@ -94,7 +91,16 @@ header {
   position: absolute;
   z-index: 2;
   display: none;
-  background-color: white;
+  background-color: #ff6d77;
+  width: 100%;
+  text-align: left;
+
+  li {}
+  a {
+    padding: 20px 0 20px 10px;
+    font-size: 1.5rem;
+
+  }
 }
 
 /* Owl carousel */
@@ -294,7 +300,7 @@ header {
 
 .page-link {
   margin-right: auto;
-  padding: 5px;
+  padding: 10px;
   margin: 10px 0px;
   background-color: #887f69;
   background-image: url(../images/top/next_icon.png);
@@ -304,7 +310,7 @@ header {
 
 .categories-box {
   margin-right: auto;
-  padding: 5px;
+  padding: 10px;
   margin: 10px 0px;
   background-color: #887f69;
   cursor: pointer;
@@ -341,7 +347,7 @@ header {
   .about-bar,
   .shopinfo-bar {
     margin-right: auto;
-    padding: 5px;
+    padding: 10px;
     background-color: #887f69;
   }
 
@@ -400,14 +406,15 @@ header {
 }
 
 .footer {
-  margin: 50px;
   text-align: center;
+  margin-bottom: 100px;
 
 
   .foot_navi {
 
     display: flex;
     justify-content: center;
+    margin: 0;
 
     li {
       list-style: none;
@@ -493,7 +500,10 @@ a {
   background-color: white;
   padding: 20px 50px;
 
-
+  hr {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
 }
 
 .products_name {
@@ -548,6 +558,7 @@ th {
   border: solid 1px;
   text-align: center;
   color: #887f69;
+  border-color: #e3e8cf;
 }
 
 th {
@@ -565,6 +576,7 @@ th {
   td {
     border: none;
     border-top: solid 1px;
+    border-color: #e3e8cf;
   }
   th {
     background: none;
@@ -633,6 +645,7 @@ th {
   hr {
     margin-top: 0;
     margin-bottom: 20px;
+    border-color: black;
   }
 
   p {
